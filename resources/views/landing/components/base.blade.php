@@ -328,7 +328,7 @@
                             <a href="{{ route('landing.index') }}" class="navigation__link">Home</a>
                         </li>
                         <li class="navigation__item">
-                            <a href="shop.html" class="navigation__link">Shop</a>
+                            <a href="{{ route('landing.shop') }}" class="navigation__link">Shop</a>
                         </li>
                         <li class="navigation__item">
                             <a href="cart.html" class="navigation__link">Cart</a>
@@ -415,7 +415,7 @@
                             <a href="{{ route('landing.index') }}" class="navigation__link">Home</a>
                         </li>
                         <li class="navigation__item">
-                            <a href="shop.html" class="navigation__link">Shop</a>
+                            <a href="{{ route('landing.shop') }}" class="navigation__link">Shop</a>
                         </li>
                         <li class="navigation__item">
                             <a href="cart.html" class="navigation__link">Cart</a>
@@ -570,7 +570,7 @@
                         <li class="sub-menu__item"><a href="shop5.html" class="menu-link menu-link_us-s">Fruit
                                 Juice</a>
                         </li>
-                        <li class="sub-menu__item"><a href="shop1.html" class="menu-link menu-link_us-s">Shop
+                        <li class="sub-menu__item"><a href="{{ route('landing.shop') }}" class="menu-link menu-link_us-s">Shop
                                 All</a></li>
                     </ul>
                 </div>
@@ -620,7 +620,7 @@
                         <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">High-Value
                                 Crops</a>
                         </li>
-                        <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Shop All</a>
+                        <li class="sub-menu__item"><a href="{{ route('landing.shop') }}" class="menu-link menu-link_us-s">Shop All</a>
                         </li>
                     </ul>
                 </div>
@@ -643,7 +643,7 @@
     <footer class="footer-mobile container w-100 px-5 d-md-none bg-body">
         <div class="row text-center">
             <div class="col-4">
-                <a href="index.html" class="footer-mobile__link d-flex flex-column align-items-center">
+                <a href="{{ route('landing.index') }}" class="footer-mobile__link d-flex flex-column align-items-center">
                     <svg class="d-block" width="18" height="18" viewBox="0 0 18 18" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <use href="#icon_home" />
@@ -653,7 +653,7 @@
             </div>
 
             <div class="col-4">
-                <a href="index.html" class="footer-mobile__link d-flex flex-column align-items-center">
+                <a href="{{ route('landing.shop') }}" class="footer-mobile__link d-flex flex-column align-items-center">
                     <svg class="d-block" width="18" height="18" viewBox="0 0 18 18" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <use href="#icon_hanger" />

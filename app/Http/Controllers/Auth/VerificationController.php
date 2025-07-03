@@ -16,15 +16,15 @@ class VerificationController extends Controller
         $user = User::where('verification_token', $code)->first();
 
         if (!$user) {
-            return redirect()->route('auth.login')->with('error', 'Invalid or expired verification code.');
+            return redirect()->route('login')->with('error', 'Invalid or expired verification code.');
         }
 
         if ($user->email_verified_at) {
-            return redirect()->route('auth.login')->with('success', 'Email already verified.');
+            return redirect()->route('login')->with('success', 'Email already verified.');
         }
         $user->email_verified_at = Carbon::now();
         $user->save();
 
-        return redirect()->route('auth.login')->with('success', 'Your email has been verified!');
+        return redirect()->route('login')->with('success', 'Your email has been verified!');
     }
 }

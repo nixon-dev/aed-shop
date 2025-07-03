@@ -215,7 +215,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="text-center">Divyansh Kumar</td>
+                                        <td class="text-center">John Doe</td>
                                         <td class="text-center">$208.12</td>
 
                                         <td class="text-center">Pending</td>

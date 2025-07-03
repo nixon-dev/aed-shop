@@ -397,7 +397,7 @@
                 </div>
 
                 <div class="text-center mt-2">
-                    <a class="btn-link btn-link_lg default-underline text-uppercase fw-medium" href="#">See All</a>
+                    <a class="btn-link btn-link_lg default-underline text-uppercase fw-medium" href="{{ route('landing.shop') }}">See All</a>
                 </div>
             </section>
         </div>
